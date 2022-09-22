@@ -57,6 +57,12 @@
           <button class="btn btn-primary" type="submit">Save</button>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-9 offset-md-3">
+          <button class="btn btn-primary" type="submit">delete</button>
+        </div>
+      </div>
     </form>
   @endcomponent
 @endsection

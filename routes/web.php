@@ -44,6 +44,11 @@ Route::get('order/cart', [OnlineOrderController::class, 'showShoppingCart'])->na
     'site.shopping-cart',
 );
 
+Route::delete('order/cart/zipcode', [OnlineOrderController::class, 'removeCouponFromCart'])->name(
+    'site.shopping-cart.removeCoupon',
+);
+
+
 Route::get('order/cart/login', [OnlineOrderController::class, 'login'])->name(
     'site.shopping-cart.login',
 );
