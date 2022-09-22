@@ -1,0 +1,78 @@
+.meal-plans {
+  .meal-plans-hero {
+    min-height: 300px;
+    background: url('../img/meal-plans/hero.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-shadow: 1px 1px 5px #000, 2px 2px 10px #000, 1px 1px 30px #000;
+    text-align: center;
+    padding-top: 80px;
+
+    img {
+      width: 250px;
+    }
+
+    h1 {
+      margin-top: 1rem;
+      text-transform: uppercase;
+      font-size: 2rem;
+      letter-spacing: 0.2em;
+    }
+  }
+
+  .menu-item {
+    img {
+      object-fit: cover;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    .stats span {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    p.fst-italic {
+      font-size: 0.75rem;
+    }
+  }
+
+  .btn-continue {
+    padding: 0.5rem 5rem;
+  }
+
+  .pricing {
+    text-align: center;
+
+    .price-circle {
+      border-radius: 50%;
+      background-color: #ffffff;
+      width: 175px;
+      height: 175px;
+      margin: auto;
+      padding-top: 2.5rem;
+      line-height: 1.125rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .meal-plans {
+    .meal-plans-hero {
+      min-height: 350px;
+
+      img {
+        width: 350px;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}

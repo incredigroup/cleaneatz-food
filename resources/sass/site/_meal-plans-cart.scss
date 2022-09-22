@@ -1,0 +1,29 @@
+.meal-plan-cart {
+  .ce-cart-rightbox {
+    background-color: #5d5c5f;
+    color: white;
+    padding: 40px;
+    vertical-align: top;
+
+    .edit-cart {
+      text-align: right;
+      margin-top: -30px;
+      margin-bottom: 15px;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #credit-card-form {
+    .form-control {
+      height: 34px;
+    }
+  }
+
+  h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

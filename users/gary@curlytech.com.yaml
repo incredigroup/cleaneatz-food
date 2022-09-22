@@ -1,0 +1,12 @@
+name: 'Gary Solomon'
+super: true
+id: 87abf3e6-ac5c-41d1-8954-6ed3002102f9
+password_hash: $2y$10$bKZUb2qrHCUtDOO294sYh.DchVf3roTty/YZY7trqrY4mbj6aMaGO
+preferences:
+  collections:
+    cafe_menu_items:
+      columns:
+        - title
+        - slug
+        - cafe_menu_categories
+        - calories

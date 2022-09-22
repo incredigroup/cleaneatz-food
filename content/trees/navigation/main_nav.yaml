@@ -1,0 +1,21 @@
+tree:
+  -
+    id: 879b9815-a649-4c74-b568-73512a4529ce
+    title: 'Cafe Menu'
+    url: /cafe-menu
+  -
+    id: 1493671d-ce80-4933-907d-f0bffe63f963
+    title: 'Meal Plans'
+    url: /meal-plans
+  -
+    id: 1d80b1dd-fa19-4473-a3e4-9fc8bc5e3f8c
+    title: Locations
+    url: '#'
+  -
+    id: 0fff1081-0af9-4a82-92da-fe79d9aa6db3
+    title: About
+    url: /about
+  -
+    id: 4f0538ec-69d9-462a-abe2-73f429b44174
+    title: Merch
+    url: 'https://merch.cleaneatz.com/'

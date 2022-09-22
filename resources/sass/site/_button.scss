@@ -1,0 +1,77 @@
+.btn {
+  text-transform: uppercase;
+}
+
+.btn-round {
+  border-radius: 1rem;
+  max-height: 40px;
+}
+
+.btn-round-lg {
+  border-radius: 1.4rem;
+  padding: 0.5rem 2.5rem;
+}
+
+.btn-green,
+.btn-orange,
+.btn-white,
+.btn-gray {
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-green {
+  color: #ffffff !important;
+  background-color: $ce-green;
+  border-color: lighten($ce-green, 10%);
+
+  &:hover {
+    background: darken($ce-green, 10%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem lighten($ce-green, 10%);
+  }
+}
+
+.btn-orange {
+  color: #ffffff !important;
+  background-color: $ce-orange;
+  border-color: lighten($ce-orange, 10%);
+
+  &:hover {
+    background: darken($ce-orange, 10%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem lighten($ce-orange, 10%);
+  }
+}
+
+.btn-white {
+  color: #000000 !important;
+  background-color: #ffffff;
+  border-color: darken(#ffffff, 10%);
+
+  &:hover {
+    background: darken(#ffffff, 10%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem darken(#ffffff, 10%);
+  }
+}
+.btn-gray {
+  color: #ffffff !important;
+  background-color: #414042;
+  border-color: darken(#414042, 10%);
+
+  &:hover {
+    background: darken(#414042, 10%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem darken(#414042, 10%);
+  }
+}

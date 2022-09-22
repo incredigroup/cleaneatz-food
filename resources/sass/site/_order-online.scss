@@ -1,0 +1,107 @@
+.location-row {
+  background: rgba(0, 0, 0, 0.88);
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.order-banner {
+  background-image: url(/img/legacy-banners/order-banner.jpg);
+  min-height: 900px;
+  height: 100%;
+  background-size: cover;
+}
+
+.order-card {
+  padding: 20px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.order-icon {
+  width: 50%;
+  margin: auto;
+
+  img {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+.order-card-button {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'BebasNeue', Verdana, Tahoma;
+  text-transform: uppercase !important;
+  background-color: #ffffff;
+  padding: 1rem 20px;
+  display: inline-block;
+  margin: 20px 0;
+  line-height: 34px;
+}
+
+#cafe-order {
+  background: rgba(232, 105, 40, 0.94);
+}
+
+#cafe-order .order-card-button {
+  color: rgb(232, 105, 40);
+}
+
+#mealplan-order {
+  background: rgba(211, 42, 46, 0.95);
+}
+
+#mealplan-order .order-card-button {
+  color: rgba(211, 42, 46);
+  // color: rgb(232, 105, 40);
+}
+
+#shipped-order {
+  background: rgba(0, 0, 0, 0.88);
+}
+
+#shipped-order .order-card-button {
+  color: rgba(0, 0, 0);
+}
+
+#catering-order {
+  background: rgba(110, 191, 74, 0.94);
+}
+
+#catering-order .order-card-button {
+  color: rgba(110, 191, 74);
+}
+
+.order-spacer-row {
+  height: 1.5rem;
+}
+
+.order-options-row {
+  margin-top: 2.5rem;
+}
+
+.red-box h3 small {
+  color: inherit;
+}
+
+.vendor-meals-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+
+  article {
+    margin-top: 20px;
+    text-align: center;
+
+    select {
+      max-width: 150px;
+      margin: auto;
+    }
+  }
+}
+
+.vendor-order-complete {
+  text-align: center;
+  min-height: 400px;
+}

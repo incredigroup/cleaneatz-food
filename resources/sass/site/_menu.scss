@@ -1,0 +1,58 @@
+.menu {
+  .menu-hero {
+    min-height: 300px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+      url('../img/menu/hero.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-shadow: 1px 1px 5px #000, 2px 2px 10px #000, 1px 1px 30px #000;
+    text-align: center;
+  }
+
+  .menu-categories,
+  .menu-items {
+    text-align: center;
+    background: url('../img/logos/logo-repeat-background.png');
+    background-position: right top;
+    background-size: 50%;
+    background-repeat: repeat-y;
+
+    img {
+      width: 8rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .menu-items {
+    h2 {
+      margin-bottom: 0;
+    }
+
+    .calories {
+      color: $ce-orange;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .menu {
+    .menu-hero {
+      min-height: 350px;
+      background: url('../img/menu/hero.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .menu-categories,
+    .menu-items {
+      background: none;
+    }
+  }
+}

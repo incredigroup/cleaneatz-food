@@ -1,0 +1,56 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: item_image
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Item Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: calories
+        field:
+          display: Calories
+          type: integer
+          icon: integer
+          listable: hidden
+          instructions_position: above
+          read_only: false
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: cafe_menu_categories
+        field:
+          type: terms
+          taxonomies:
+            - cafe_menu_categories
+          display: 'Cafe Meal Item Categories'
+          mode: select
+title: 'Cafe Meal Items'

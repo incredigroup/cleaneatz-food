@@ -1,0 +1,33 @@
+// Body
+$body-bg: #ffffff;
+$body-text: #313131;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$ce-red: #ce0e2d;
+$ce-green: #6abf4b;
+$ce-orange: #f04e23;
+
+.color-body-text {
+  color: $body-text;
+}
+
+.color-ce-orange {
+  color: $ce-orange;
+}
+
+.bg-color-orange {
+  background-color: $ce-orange;
+}
+
+.bg-color-black {
+  background-color: #000000;
+}
+
+.bg-color-light-gray {
+  background-color: #ececec;
+}

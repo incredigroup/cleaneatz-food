@@ -1,0 +1,29 @@
+.about {
+  .about-hero {
+    .col-12:last-child {
+      background: url('../img/about/about-hero.jpg');
+      background-position: -575px 0px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    .about-hero {
+      background: url('../img/about/about-hero.jpg');
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center;
+
+      .col-12:last-child {
+        background: none;
+      }
+    }
+  }
+}

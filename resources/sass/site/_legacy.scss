@@ -1,0 +1,92 @@
+.banner {
+  padding: 30px 0;
+  position: relative;
+}
+
+.page-banner {
+  background-image: url(/img/legacy-banners/meal-plans-banner.jpg);
+}
+
+.img-banner {
+  background-image: url(/img/legacy-banners/form-banner.jpg);
+}
+
+.page-banner,
+.img-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: #fff;
+  text-align: center;
+  height: 350px;
+}
+
+.page-banner > * {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-banner div {
+  margin: auto;
+}
+
+.banner-content > * {
+  text-shadow: 1px 1px 5px #000, 2px 2px 10px #000, 1px 1px 30px #000;
+}
+
+.green-banner {
+  background-color: $ce-green;
+}
+
+.signin-form-wrap {
+  background: hsla(0, 0%, 100%, 0.7);
+  border-radius: 10px;
+  padding: 2.5rem 2rem;
+
+  label,
+  h1,
+  a {
+    color: #777;
+
+    &:hover {
+      color: #f36b21;
+    }
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.btn-legacy {
+  border-radius: 0;
+  padding: 8px 18px;
+  text-shadow: 0 0 1px rgb(0 0 0 / 20%), 0 1px 0 rgb(0 0 0 / 20%);
+  color: #ffffff !important;
+  background-color: #337ab7;
+  border-color: lighten(#337ab7, 10%);
+
+  &:hover {
+    background: darken(#337ab7, 10%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem lighten(#337ab7, 10%);
+  }
+}
+
+.hr-legacy {
+  color: transparent;
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(113, 189, 82, 0),
+    $ce-green,
+    rgba(113, 189, 82, 0)
+  );
+}

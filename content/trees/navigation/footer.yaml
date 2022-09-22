@@ -1,0 +1,29 @@
+tree:
+  -
+    id: 568b6913-3c9c-4366-9f11-77c274bc346a
+    title: 'Terms of Service'
+    url: /terms-of-service
+  -
+    id: ebea6861-86c8-4ada-b751-35de8e893026
+    title: 'Delivery of Service'
+    url: /delivery-of-service
+  -
+    id: da6b0c8d-fd1b-4990-aa85-37e04694dced
+    title: Franchise
+    url: /franchise
+  -
+    id: 8cdd62cc-eaa9-4ec6-a7d3-b57ba11ecafe
+    title: Blog
+    url: /blog
+  -
+    id: f94b2c71-28b9-4df7-b356-1e811c020d45
+    title: 'Nutrition Guide'
+    url: /nutrition-guide
+  -
+    id: 2e1ea045-c685-4b26-9172-b0e8cf3e85b8
+    title: 'Frequently Asked Questions'
+    url: /faqs
+  -
+    id: 402b266f-e903-43fe-910d-0eaea3ac22f8
+    title: Contact
+    url: /contact

@@ -1,0 +1,98 @@
+.ce-panel {
+  text-align: center;
+  overflow-y: hidden;
+
+  .col-12,
+  .col-md-6 {
+    height: 400px;
+    padding: 3rem 0;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .col-image {
+    padding: 0;
+
+    img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+
+  .col-image-curve-left {
+    img {
+      border-radius: 230px 0 0 230px;
+    }
+  }
+
+  .col-image-curve-right {
+    img {
+      border-radius: 0 230px 230px 0;
+    }
+  }
+
+  p {
+    padding: 0 3rem;
+    line-height: 2rem;
+    font-weight: bold;
+  }
+
+  &.gray-panel {
+    color: #ffffff;
+    background-color: #5d5c5f;
+  }
+
+  &.orange-panel {
+    color: #ffffff;
+    background-color: $ce-orange;
+  }
+}
+
+.gray-header-panel {
+  background-color: #414042;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+
+  .orange-bullet {
+    color: #f04e23;
+  }
+}
+
+.white-panel {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+
+  h1,
+  h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .icons-medium {
+    img {
+      width: 125px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .ce-panel {
+    p {
+      line-height: 2.5rem;
+    }
+  }
+}
